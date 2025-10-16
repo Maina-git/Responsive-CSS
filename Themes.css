@@ -1,0 +1,81 @@
+/* ================================================
+   🎨 Attention-Grabbing Color Palette
+   Use: var(--color-name)
+   Example: color: var(--alert-red);
+   ================================================ */
+
+:root {
+  /* Alert / Error / Danger */
+  --alert-red: #FF3B30;
+  --alert-coral: #E63946;
+  --alert-crimson: #D7263D;
+  --alert-soft-red: #FF6B6B;
+  --alert-deep-red: #B00020;
+
+  /*Success / Confirmation / Positive Action */
+  --success-bright: #34C759;
+  --success-emerald: #2ECC71;
+  --success-deep: #27AE60;
+  --success-lime: #00C851;
+  --success-neon: #00E676;
+
+  /* Warning / Caution / Attention */
+  --warning-amber: #FFC107;
+  --warning-golden: #FFB300;
+  --warning-orange: #FF9800;
+  --warning-yellow: #F4B400;
+  --warning-bright: #FFD60A;
+
+  /* Primary / Trust / Call to Action */
+  --primary-blue: #007BFF;
+  --primary-dodger: #1E90FF;
+  --primary-ios: #0A84FF;
+  --primary-material: #2196F3;
+  --primary-tailwind: #3B82F6;
+
+  /* Accent / Creativity / Premium Feel */
+  --accent-royal: #8E44AD;
+  --accent-amethyst: #9B59B6;
+  --accent-violet: #A259FF;
+  --accent-android: #BB86FC;
+  --accent-lavender: #7E57C2;
+
+  /* Playful / Friendly / Warm */
+  --playful-hot-pink: #FF4081;
+  --playful-pink: #FF69B4;
+  --playful-rose: #F06292;
+  --playful-deep-pink: #F50057;
+  --playful-raspberry: #E91E63;
+
+  /* Energy / Gradient / Dynamic */
+  --energy-orange-red: #FF512F;
+  --energy-magenta: #DD2476;
+  --energy-aqua: #24C6DC;
+  --energy-indigo: #5433FF;
+  --energy-mint: #6EE7B7;
+}
+
+/* Example usage */
+.btn-primary {
+  background-color: var(--primary-blue);
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: var(--alert-red);
+  color: #fff;
+}
+
+.btn-success {
+  background-color: var(--success-emerald);
+  color: #fff;
+}
+
+.alert-warning {
+  background-color: var(--warning-amber);
+  color: #000;
+}
+
+.text-accent {
+  color: var(--accent-violet);
+}
